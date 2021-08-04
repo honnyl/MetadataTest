@@ -1,0 +1,6 @@
+CREATE TABLE `lhn` (
+  `temperature` varchar(255) DEFAULT NULL,
+  `id` varchar(255) DEFAULT NULL,
+  `timestamp` varchar(255) DEFAULT NULL,
+  KEY `myIndex` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
